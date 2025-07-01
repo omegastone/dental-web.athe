@@ -1,0 +1,83 @@
+/* Reset default styles */
+body, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Apply general styles to the page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the contact section */
+.contact-section {
+    background-color: #0ad3fc;
+    padding: 40px 0;
+    text-align: center;
+    background-image: url(IMAGES/book.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Style the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the title */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style contact information */
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+/* Style the contact form */
+.contact-form {
+    background-color: #03f9e9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="ID"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #05b4f4;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}

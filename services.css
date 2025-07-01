@@ -1,0 +1,58 @@
+/* Reset default styles */
+body, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(3, 247, 247);
+}
+
+/* Basic styles for header */
+header {
+    background-color: #644040;
+    color: hsl(248, 100%, 51%); /* Set the font color to black */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.services-section {
+    background-image: url(dentalllll.jpeg);
+    background-size: cover;
+    color: #000; /* Set the font color to black */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000; /* Set the font color to black */
+}
+
+.service {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid hsl(246, 98%, 51%);
+    border-radius: 5px;
+    background-color: #1f02f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: hwb(223 2% 2% / 0.992)
+    ; /* Set the font color to black */
+}
+
+.service h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #3803fa; /* Set the font color to black */
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3803fa; /* Set the font color to black */
+}
